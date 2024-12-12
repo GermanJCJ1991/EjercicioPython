@@ -11,3 +11,6 @@ print(f"Género: {libros["To Kill a Mockingbird"]['género']}")
 print(f"Calificación: {libros["El Gran Gatsby"]['calificación']}")
 
 "Hola"
+
+libros["1984"]["calificación"] = 5.0
+print(f"Nueva calificación de '1984': {libros['1984']['calificación']}")
